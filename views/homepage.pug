@@ -1,0 +1,14 @@
+h1 Custom Object Records
+a(href="/update-cobj") Add a record
+
+table
+  tr
+    th Name
+    th Age
+    th Type
+
+  each r in records
+    tr
+      td= r.properties.name
+      td= r.properties.age
+      td= r.properties.type
